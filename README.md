@@ -13,3 +13,4 @@ Made with Android Studio Artic Fox 2020.3.1 Patch 4 <br/>
 - Saving image functionality.
 
 ## Screenshot
+![Screenshot](./media/screenshot.png)
