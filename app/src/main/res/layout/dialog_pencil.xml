@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Thickness"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtThicknessValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="10"
+            android:textSize="20dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBarThickness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="200"
+            android:min="1"
+            android:progress="10"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Type"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPencilModes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/radioPencil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pencil" />
+
+            <RadioButton
+                android:id="@+id/radioLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Line" />
+
+            <RadioButton
+                android:id="@+id/radioRectangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rectangle" />
+
+            <RadioButton
+                android:id="@+id/radioCircle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Circle" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBoxFilled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filled" />
+
+    </LinearLayout>
+
+</RelativeLayout>
